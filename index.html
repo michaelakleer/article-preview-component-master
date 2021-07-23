@@ -25,9 +25,9 @@
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
-    <div class="d-flex">
-      <div class="card-container">
-        <div>
+    <div class="card d-flex justify-content-center align-items-center">
+      <div class="card-container d-flex">
+        <div class="drawer">
           <img
             src="/images/drawers.jpg"
             alt="Green dresser with pictures and decoration on top of it"
@@ -43,15 +43,23 @@
             felt slightly bare and uninviting. I’ve got some simple tips to help
             you make any room feel complete.
           </p>
-          <div><img src="/images/avatar-michelle.jpg" alt="Michelle" /></div>
-          <div>
-            <h2>Michelle Appleton</h2>
-            <p>28 Jun 2020</p>
-          </div>
-          <div>
-            <button>
-              <img src="/images/icon-share.svg" alt="Share button" />
-            </button>
+          <div class="row">
+            <div class="col">
+              <img
+                src="/images/avatar-michelle.jpg"
+                alt="Michelle"
+                class="michelle"
+              />
+            </div>
+            <div class="col">
+              <h2>Michelle Appleton</h2>
+              <p>28 Jun 2020</p>
+            </div>
+            <div class="col">
+              <button>
+                <img src="/images/icon-share.svg" alt="Share button" />
+              </button>
+            </div>
           </div>
           <div class="share">
             <h3>Share</h3>
