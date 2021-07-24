@@ -6,12 +6,14 @@
 }
 
 body {
-  height: 100vh;
   background-color: hsl(210, 46%, 95%);
 }
 
 h1 {
   font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
 }
 
 h2 {
@@ -20,18 +22,38 @@ h2 {
 
 p {
   font-size: 13px;
+  color: hsl(214, 17%, 51%);
 }
 
-.card {
-  height: 100%;
+.article {
+  height: 100vh;
+  width: 100vw;
   background-color: hsl(210, 46%, 95%);
 }
 
-.card-container {
-  max-width: 80%;
+.article-container {
+  max-width: 730px;
 }
 
-.drawer {
+.article-img {
+  height: auto;
+  overflow: hidden;
+  flex-basis: 110%;
+  border-radius: 8px 0 0 8px;
+}
+
+.image-drawers {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.article-info {
+  background: #ffffff;
+  height: auto;
+  border-radius: 0 8px 8px 0;
+  padding: 30px 35px;
 }
 
 .michelle {
