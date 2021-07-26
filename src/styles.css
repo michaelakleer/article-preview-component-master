@@ -14,15 +14,20 @@ h1 {
   line-height: 28px;
   font-weight: 700;
   color: hsl(217, 19%, 35%);
+  margin-bottom: 12px !important;
 }
 
 h2 {
   font-size: 13px;
+  margin-bottom: 3px;
+  color: #48556a;
+  font-weight: 700;
 }
 
-p {
+.article-info p {
   font-size: 13px;
   color: hsl(214, 17%, 51%);
+  margin-bottom: 24px;
 }
 
 .article {
@@ -33,6 +38,8 @@ p {
 
 .article-container {
   max-width: 730px;
+  box-shadow: 8px 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
 }
 
 .article-img {
@@ -53,15 +60,33 @@ p {
   background: #ffffff;
   height: auto;
   border-radius: 0 8px 8px 0;
-  padding: 30px 35px;
+  padding: 32px 40px;
 }
 
 .michelle {
   border-radius: 50%;
-  max-width: 40%;
+  width: 40px;
+  height: auto;
+  margin-right: 15px;
 }
 
-.share {
+.date {
+  padding-top: 3px;
+  margin-right: 120px;
+}
+
+.date p {
+  margin: 0 !important;
+  color: #9daec2;
+}
+
+#share-btn {
+  border-radius: 50%;
+  padding: 4px 9px 6px;
+  border: none;
+}
+
+.pop-up {
   display: none;
 }
 
