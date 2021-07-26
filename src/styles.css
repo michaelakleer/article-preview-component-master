@@ -72,7 +72,7 @@ h2 {
 
 .date {
   padding-top: 3px;
-  margin-right: 120px;
+  margin-right: auto;
 }
 
 .date p {
@@ -82,8 +82,17 @@ h2 {
 
 #share-btn {
   border-radius: 50%;
-  padding: 4px 9px 6px;
+  padding: 3px 9px 6px;
   border: none;
+  background: hsl(210, 46%, 95%);
+}
+
+#share-btn:hover {
+  background: hsl(214, 17%, 51%);
+}
+
+.share-img:hover {
+  fill: white;
 }
 
 .pop-up {
