@@ -82,17 +82,16 @@ h2 {
 
 #share-btn {
   border-radius: 50%;
-  padding: 3px 9px 6px;
+  padding: 5px 9px 6px;
   border: none;
   background: hsl(210, 46%, 95%);
+  color: hsl(214, 17%, 51%);
 }
 
 #share-btn:hover {
   background: hsl(214, 17%, 51%);
-}
-
-.share-img:hover {
-  fill: white;
+  color: #ffffff;
+  transition: all 0.25s ease-in-out;
 }
 
 .pop-up {
