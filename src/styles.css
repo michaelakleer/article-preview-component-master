@@ -24,6 +24,14 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #9daec2;
+  padding: 6px 15px 0 0;
+}
+
 .article-info p {
   font-size: 13px;
   color: hsl(214, 17%, 51%);
@@ -95,7 +103,31 @@ h2 {
 }
 
 .pop-up {
-  display: none;
+  position: absolute;
+  width: 248px;
+  background: hsl(217, 19%, 35%);
+  right: 280px;
+  top: 335px;
+  padding: 12px 32px 8px;
+  border-radius: 10px;
+}
+
+.pop-up::after {
+  content: "";
+  position: absolute;
+  border-top: 15px solid hsl(217, 19%, 35%);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  left: 100px;
+  top: 49px;
+}
+
+.social-media {
+  padding-bottom: 10px;
+}
+
+.social-media img {
+  padding-right: 12px;
 }
 
 .attribution {
